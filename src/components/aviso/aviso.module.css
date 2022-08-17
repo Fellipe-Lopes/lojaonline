@@ -1,0 +1,25 @@
+.headerUp{
+    width: 100vw;
+    height: 30px;
+}
+.texto{
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-duration: 40s;
+    text-transform: uppercase;
+}
+@keyframes slidein {
+   from{
+        margin-left: 100%;
+        width: 500%;
+    }
+    
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
