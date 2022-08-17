@@ -30,7 +30,6 @@ text-align: center;
 .lista_menu_item{
     margin: 50px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
     cursor: pointer;
     font-weight: 700;
     text-transform: uppercase;
