@@ -1,11 +1,13 @@
 import header from './header.module.css';
+import Logo from '../../assets/logo.png';
+import Carrinho from '../../assets/carrinho-de-compra.png';
 
 export const Header = () =>{
     return(
         <header className={header.cabecalho}>
 
             <div className={header.logo}>
-                LOGO
+                <img className={header.logo_imagem} src={Logo} alt="" />
             </div>
 
             <div className={header.barra_de_pesquisa}>
@@ -20,7 +22,7 @@ export const Header = () =>{
             </div>
 
             <div className={header.carrinho}>
-                CARRINHO
+                <img className={header.carrinho_logo} src={Carrinho} alt="" />
             </div>
 
         </header>

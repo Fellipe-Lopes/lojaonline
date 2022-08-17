@@ -12,14 +12,3 @@
     animation-duration: 40s;
     text-transform: uppercase;
 }
-@keyframes slidein {
-   from{
-        margin-left: 100%;
-        width: 500%;
-    }
-    
-    to{
-        margin-left: 0%;
-        width: 100%;
-    }
-}

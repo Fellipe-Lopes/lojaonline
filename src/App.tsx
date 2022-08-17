@@ -6,7 +6,7 @@ import {Ofertas} from './components/principais_ofertas/ofertas';
 function App() {
   return (
     <div>
-      <Aviso/>
+      <Aviso title="Promoção de natal. Aproveite nossas ofertas!!!"/>
       <Header/>
       <Produtos/>
       <Ofertas/>
