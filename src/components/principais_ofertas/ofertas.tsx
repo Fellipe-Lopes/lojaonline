@@ -1,30 +1,53 @@
 import ofertas from './ofertas.module.css';
+import memorias from '../../assets/memorias/ddr4.webp';
+import notebooks from '../../assets/notebooks/acer_n.webp';
+import placas from '../../assets/placas_de _video/nvidia-geforce-gt-1030.webp';
+import processadores from '../../assets/processadores/i7.jpg';
+import smart from '../../assets/smartphone/s_a20.webp';
 
 export const Ofertas = () =>{
     return(
-        <section>
-            <ul className={ofertas.lista}>
-                <li className={ofertas.lista_item}>
-                    img
+        <section className={ofertas.ofertas}>
+            <div className={ofertas.item}>
+                <div className={ofertas.imagem}>
+                    <img className={ofertas.img} src={smart}/>
+                </div>
+                <div className={ofertas.texto}>
                     <h2>Samsung A20</h2>
-                </li>
-                <li className={ofertas.lista_item}>
-                    img
-                    <h2>Notebook Acer</h2>
-                </li>
-                <li className={ofertas.lista_item}>
-                    img
+                </div>
+            </div>
+            <div className={ofertas.item}>
+                <div className={ofertas.imagem}>
+                    <img className={ofertas.img} src={processadores}/>
+                </div>
+                <div className={ofertas.texto}>
+                    <h2>Intel Core i7</h2>
+                </div>
+            </div>
+            <div className={ofertas.item}>
+                <div className={ofertas.imagem}>
+                    <img className={ofertas.img} src={placas}/>
+                </div>
+                <div className={ofertas.texto}>
+                <h2>Placa GT1300</h2>
+                </div>
+            </div>
+            <div className={ofertas.item}>
+                <div className={ofertas.imagem}>
+                    <img className={ofertas.img} src={notebooks}/>
+                </div>
+                <div className={ofertas.texto}>
+                    <h2>Acer Aspire</h2>
+                </div>
+            </div>
+            <div className={ofertas.item}>
+                <div className={ofertas.imagem}>
+                    <img className={ofertas.img} src={memorias}/>
+                </div>
+                <div className={ofertas.texto}>
                     <h2>Memória DDR4</h2>
-                </li>
-                <li className={ofertas.lista_item}>
-                    img
-                    <h2>Placa GTSX 2000</h2>
-                </li>
-                <li className={ofertas.lista_item}>
-                    img
-                    <h2>Intel i7</h2>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
     )
 }
