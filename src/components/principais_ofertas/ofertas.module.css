@@ -8,19 +8,20 @@
     padding-top:100px;
 }
 .item{
-    width: 160px;
-    height: 240px;
+    width: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
 }
 .imagem{
-    flex: 5;
+    flex: 6;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fffafa;
     border-radius: 10px;
     cursor: pointer;
+    overflow: hidden;
 }
 .texto{
     flex: 1;
@@ -35,4 +36,16 @@
 .img:hover{
     width: 170px;
     transition: all 0.5s ease-out;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: grey;
+    color: var(--cor-branco);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: var(--cor-azul);
 }
